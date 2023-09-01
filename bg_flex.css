@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #333;
+}
+
+.flex-container {
+  background-color: gray;
+  padding: 1rem;
+}
+
+.flex-container div {
+  width: 200px;
+  background-color: rgb(123, 123, 255);
+  border: 2px solid black;
+  font-size: 2rem;
+}
+
+.flex-box-1 {
+  min-height: 100px;
+}
+
+.flex-box-2 {
+  min-height: 200px;
+}
+
+.flex-box-3 {
+  min-height: 250px;
+}
